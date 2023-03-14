@@ -3,9 +3,11 @@
     "name": "cms",
     "slug": "cms",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "defualt",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "dir": "right-to-left",
+    "lang": "ar",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +27,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
